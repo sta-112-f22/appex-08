@@ -1,0 +1,17 @@
+---
+title: "Appex 08"
+format: html
+editor: visual
+---
+
+```{r}
+#| label: read-data
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(googlesheets4)
+
+d <- read_sheet("INSERT YOUR GOOGLE SPREADSHEET URL HERE")
+
+```
